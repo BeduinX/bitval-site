@@ -10,7 +10,6 @@ body {
 }
 
 header {
-  background-color: #111;
   padding: 20px 0;
   width: 100%;
   max-width: 100%;
@@ -25,11 +24,15 @@ header {
 header a {
   color: #f2f2f2;
   margin: 0 10px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 main {
   padding: 40px;
+}
+
+main h1 {
+  font-size: 38px;
 }
 
 .legal-page {
